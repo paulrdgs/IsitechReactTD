@@ -65,8 +65,17 @@ const App = () => {
   }
 
   const parseObj = (val) => {
-    console.log(...Object.values(val))
+    console.log(...Object.values(val));
+    // fetch('https://localhost:7064/api/Utilisateur/AllUser')
+    // .then((response) => {
+    //   return response.json()
+    // })
+    // .then((result) => {
+    //   console.log(result)
+    // })
   }
+  
+  
 
 
   return (
